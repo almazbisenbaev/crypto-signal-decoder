@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+video,
+iframe,
+blockquote,
+cite,
+p {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.header {
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+.header h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(0,0,0,0.5);
+}
+
+.header h1 a {
+    color: #000;
+}
+
+.grail {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 14px;
+    display: flex;
+    overflow: hidden;
+}
+
+.grail-form {
+    position: relative;
+    flex: 1;
+    padding: 45px;
+    padding-top: 90px;
+}
+
+.grail-form-header {
+    font-size: 0.775em;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    right: 45px;
+}
+
+.grail-output {
+    background: rgba(0,0,0,0.05);
+    flex: 1;
+    padding: 45px;
+    padding-top: 90px;
+}
+
+.fields .field {
+    margin-bottom: 20px;
+}
+
+.fields .field:last-child {
+    margin-bottom: 0;
+}
+
+.field {
+
+}
+
+.field input {
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+}
+
+.field input::placeholder {
+    color: rgba(0,0,0,0.15);
+}
+
+.field input:focus {
+    outline: none;
+}
+
+.output-item {
+    margin-bottom: 20px;
+}
+
+.output-item:last-child {
+    margin-bottom: 0;
+}
+
+.output-item-value {
+    font-size: 28px;
+    font-weight: bold;
+    height: 30px;
+}
+

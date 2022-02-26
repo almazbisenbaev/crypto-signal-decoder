@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Signal Decoder by bisenbaev.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="header">
+        <h1>Crypto Signal Decoder by <a href="//bisenbaev.com">Almaz Trofimov-Bisenbaev</a></h1>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="grail">
+
+        <div class="grail-form">
+
+            <div class="grail-form-header">Just fill all the available information and I will calculate what I&nbsp;can</div>
+
+            <div class="fields">
+
+                <label class="field">
+                    <div class="field-label">Entry price</div>                    
+                    <input type="number" id="input-price-entry" placeholder="0">
+                </label>
+    
+                <label class="field">                    
+                    <div class="field-label">Mark price</div>      
+                    <input type="number" id="input-price-mark" placeholder="0">
+                </label>
+    
+                <label class="field">
+                    <div class="field-label">PNL ($)</div>   
+                    <input type="number" id="input-pnl" placeholder="0">
+                </label>
+    
+                <label class="field">
+                    <div class="field-label">ROE (%)</div>
+                    <input type="number" id="input-roe" placeholder="0">
+                </label>
+    
+                <label class="field">
+                    <div class="field-label">Margin size ($)</div>
+                    <input type="number" id="input-margin" placeholder="0">
+                </label>
+    
+                <label class="field">
+                    <div class="field-label">Leverage</div>
+                    <input type="number" id="input-leverage" placeholder="0">
+                </label>
+
+            </div>
+        </div>
+
+        <div class="grail-output">
+            <div class="output-items">
+
+                <div id="output-price-entry" class="output-item">
+                    <div class="output-item-label">Entry price <span></span></div>
+                    <div class="output-item-value"><span id="output-price-entry-value"></span></div>
+                </div>
+
+                <div id="output-price-mark" class="output-item">
+                    <div class="output-item-label">Mark price:</div>
+                    <div class="output-item-value"><span id="output-price-mark-value"></span></div>
+                </div>
+
+                <div id="output-pnl" class="output-item">
+                    <div class="output-item-label">PNL:</div>
+                    <div class="output-item-value"><span id="output-pnl-value"></span></div>
+                </div>
+
+                <div id="output-roe" class="output-item">
+                    <div class="output-item-label">ROE:</div>
+                    <div class="output-item-value"><span id="output-roe-value"></span></div>
+                </div>
+
+                <div id="output-margin" class="output-item">
+                    <div class="output-item-label">Margin size:</div>
+                    <div class="output-item-value"><span id="output-margin-value"></span></div>
+                </div>
+                
+                <div id="output-leverage" class="output-item">
+                    <div class="output-item-label">Leverage:</div>
+                    <div class="output-item-value"><span id="output-leverage-value"></span></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
